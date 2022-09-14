@@ -1,4 +1,7 @@
 # About
+SmartFace Platform is also capable to process video files. The processing of video files is faster than the actual length of uploaded videos - so called faster than real time processing. You can easily upload the video file and SmartFace Platfrom will process it in the same way as the real time video stream, i.e. detects faces, extracts biometric data, identifies detected person against watchlists, stores the information into the database (based on the data storage configuration) and provides ZeroMQ notifications. 
+It is possible to upload multiple videos at a same time and process them in parallel. Pedestrian detection is currently not supported in Rapid video processing.
+
 SmartFace docker images provide an easy way of deploying and scaling SmartFace with all the benefits of containerization. SmartFace platform is distributed as a number of linux docker images, some of which are specific for [Nvidia Jetson](https://developer.nvidia.com/embedded/jetson-developer-kits) platform.
 
 Note that the jetson docker containers need to be run in privileged mode. This is because we need specific system files available in the container to properly check license usage.
