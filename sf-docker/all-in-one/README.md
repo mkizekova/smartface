@@ -1,4 +1,5 @@
 # SmartFace All-in-One
+SmartFace covers most typical use cases when it comes to facial recognition and biometrics. The All-in-one setup contains docker compose files that are required for use cases such as access control, video surveillance or video investigation.
 
 ## Deployment
 1. Install `Docker` and `docker compose` on the host machine.
