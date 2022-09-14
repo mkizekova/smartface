@@ -1,5 +1,5 @@
 # SmartFace Simple Setup!
-
+The Simple setup provides docker-compose files that are used to demonstrate configuration steps required by SmartFace with a single integrated camera. 
 
 ## Quick Start
 1. Install `Docker` and `docker compose` on the host machine.
