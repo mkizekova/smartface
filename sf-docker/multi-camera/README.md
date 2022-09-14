@@ -1,5 +1,5 @@
-# SmartFace Multi Camera Setup
-
+# 
+The multi-camera setup provides docker-compose files that are designed to demonstrate configuration steps required by SmartFace with multiple integrated cameras.
 
 ## Quick Start
 1. Install `Docker` and `docker compose` on the host machine.
