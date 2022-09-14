@@ -1,4 +1,10 @@
 # SmartFace Cloud Matcher
+SmartFace Cloud Matcher enables your application to easily identify a person by comparing their live image with a reference image previously stored in a watchlist. Your application provides an image to the Cloud Matcher API, and the service provides highly accurate facial detection and identification. The lightweight identification of a person can be used for a variety of use cases where a fast identification of people is required and where you can register people's faces into the watchlist, including access control, 2nd factor authentication, retail and many other.
+
+The provided docker images are intended for use the Cloudmatcher on Nvidia Jetson devices
+
+Note that the jetson docker containers need to be run in privileged mode. This is because we need specific system files available in the container to properly check license usage.
+
 
 ## Deployment
 1. Install `Docker` and `docker compose` on the host machine.
